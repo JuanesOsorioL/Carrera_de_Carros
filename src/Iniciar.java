@@ -1,8 +1,5 @@
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
-
 import Carreras.BD.DBUtils;
 import Carreras.Conductores.conductor;
 import Carreras.Carros.carro;
@@ -134,35 +131,6 @@ public class Iniciar {
             default :
                 break;
         }
-
         }
-                 /*
-
-        try {
-            DBUtils.Connection();
-        for (int i = 0; i< 3; i++) {
-            int posicion=i+1;
-
-          //  int cantidad = DBUtils.validarGanadores(posicion,"carlos");//0 si no existe
-            int cantidad = DBUtils.setGuardarGanadores(posicion,"carlos");
-
-            ///    int cantidad = DBUtils.validarGanadores(posicion,podio.get(i).getConductor().getNombre());
-         //   if (cantidad==0){
-           //     DBUtils.setGuardarGanadores(posicion,podio.get(i).getConductor().getNombre());
-          //  }else{
-          //      DBUtils.setActualizarGanador(cantidad);
-        //    }
-            System.out.println(cantidad);
-            //
-
-        }
-        }catch (SQLException e) {
-            e.printStackTrace();
-        }
-        finally {
-            DBUtils.desconectar();
-        }
-*/
-
     }
 
